@@ -4,6 +4,7 @@ text-align:center;
 
 }
 body {
+    text-align: center;
     margin: 0;
     padding: 0;
     background-image: url('https://universoretro.com.br/wp-content/uploads/2021/02/fitas-k7.jpg');
@@ -21,3 +22,17 @@ body {
     z-index: 1; /* Garante que o botão fique acima do vídeo */
     padding: 15px;
 }
+h1, h2{
+    color: white;
+}
+.texto{
+    color: white;
+}
+/* Estilos para aumentar o tamanho da barra de entrada */
+#tagVideo {
+    border-radius: 5%;
+    width: 580px; /* Defina o tamanho desejado em porcentagem, ou use um valor em pixels (por exemplo, width: 300px;) */
+    padding: 5px; /* Adicione um preenchimento para melhorar a aparência */
+    font-size: 16px; /* Tamanho da fonte */
+  }
+  
